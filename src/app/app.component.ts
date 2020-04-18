@@ -17,6 +17,7 @@ export class AppComponent {
       );
      });
 
+  //Data
   appareils = [
     {
       name: 'Machine à  laver',
@@ -32,6 +33,7 @@ export class AppComponent {
     }
   ];
   
+  //Button
   constructor() {
     setTimeout(
       () => {
