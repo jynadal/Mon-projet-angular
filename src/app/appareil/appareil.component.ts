@@ -28,13 +28,13 @@ export class AppareilComponent implements OnInit {
       return 'red';
     }
   }
-  onSwitch() {
-    if(this.appareilStatus === 'allumé') {
-      this.appareilService.switchOffOne(this.index);
-    } else if (this.appareilStatus === 'éteint') {
-      this.appareilService.switchOnOne(this.index);
-    }
-  }
+  // onSwitch() {
+  //   if(this.appareilStatus === 'allumé') {
+  //     this.appareilService.switchOffOne(this.index);
+  //   } else if (this.appareilStatus === 'éteint') {
+  //     this.appareilService.switchOnOne(this.index);
+  //   }
+  // }
 
   onSwitchOn() {
     this.appareilService.switchOnOne(this.index);
