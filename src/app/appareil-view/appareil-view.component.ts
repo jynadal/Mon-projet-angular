@@ -8,7 +8,8 @@ import { AppareilService } from '../services/appareil.service';
 })
 export class AppareilViewComponent implements OnInit {
 
-  isAuth = false;
+
+ isAuth = false;
 
   lastUpdate = new Promise((resolve, reject) => {
     const date = new Date();
