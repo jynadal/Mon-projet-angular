@@ -10,9 +10,11 @@
                         
         </ul>
         <button class="btn btn-success" 
-                [disabled]="!isAuth" 
                 (click)="onAllumer()"> Tout allumer </button>
         <button class="btn btn-danger" 
-                [disabled]="!isAuth"
                 (click)="onEteindre()"> Tout éteindre </button>
+        <button class="btn btn-primary"
+                (click)="onSave()">Enregistremer les appareils</button>
+        <button class="btn btn-primary"
+                (click)="onFetch()">Récupere les appareils</button>
 </div>
