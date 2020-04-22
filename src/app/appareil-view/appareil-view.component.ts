@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs/Subscription';
 })
 export class AppareilViewComponent implements OnInit, OnDestroy {
 
- //isAuth = false;
+ isAuth = false;
  appareils: any[];
  appareilSubscription: Subscription;
 
